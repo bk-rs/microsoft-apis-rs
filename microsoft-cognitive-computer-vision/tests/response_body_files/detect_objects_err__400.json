@@ -1,0 +1,10 @@
+{
+    "error": {
+        "code": "InvalidRequest",
+        "message": "Input data is not a valid image.",
+        "innererror": {
+            "code": "InvalidImageFormat",
+            "message": "Input data is not a valid image."
+        }
+    }
+}

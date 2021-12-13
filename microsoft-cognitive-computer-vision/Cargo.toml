@@ -1,6 +1,22 @@
 [package]
 name = "microsoft-cognitive-computer-vision"
 version = "0.1.0"
+authors = ["vkill <vkill.net@gmail.com>"]
 edition = "2021"
+description = "Microsoft - Cognitive Services - Computer Vision API"
+license = "Apache-2.0 OR MIT"
+repository = "https://github.com/bk-rs/microsoft-apis-rs"
+homepage = "https://github.com/bk-rs/microsoft-apis-rs"
+documentation = "https://docs.rs/microsoft-cognitive-computer-vision"
+keywords = []
+categories = []
+readme = "README.md"
 
 [dependencies]
+http-api-client-endpoint = { version = "0.2", default-features = false }
+
+serde = { version = "1.0", default-features = false, features = ["std", "derive"] }
+serde_json = { version = "1.0", default-features = false, features = ["std"] }
+url = { version = "2.2", default-features = false }
+
+thiserror = { version = "1.0", default-features = false }
