@@ -2,24 +2,30 @@
     "objects": [
         {
             "rectangle": {
-                "x": 0,
-                "y": 0,
-                "w": 50,
-                "h": 50
+                "x": 238,
+                "y": 299,
+                "w": 177,
+                "h": 117
             },
-            "object": "tree",
-            "confidence": 0.9,
-            "parent": {
-                "object": "plant",
-                "confidence": 0.95
-            }
+            "object": "Skateboard",
+            "confidence": 0.903
+        },
+        {
+            "rectangle": {
+                "x": 118,
+                "y": 63,
+                "w": 305,
+                "h": 321
+            },
+            "object": "person",
+            "confidence": 0.955
         }
     ],
-    "requestId": "1ad0e45e-b7b4-4be3-8042-53be96103337",
+    "requestId": "2289fe09-89af-4eaf-97c3-81e41130c3f2",
     "metadata": {
-        "width": 100,
-        "height": 100,
-        "format": " Jpeg"
+        "height": 462,
+        "width": 600,
+        "format": "Jpeg"
     },
     "modelVersion": "2021-04-01"
 }

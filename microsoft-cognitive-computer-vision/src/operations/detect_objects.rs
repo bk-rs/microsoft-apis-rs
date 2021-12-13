@@ -109,7 +109,7 @@ mod tests {
             "../../tests/response_body_files/detect_objects_ok.json"
         )) {
             Ok(ok_json) => {
-                assert_eq!(ok_json.objects.len(), 1);
+                assert_eq!(ok_json.objects.len(), 2);
             }
             Err(err) => panic!("{}", err),
         }

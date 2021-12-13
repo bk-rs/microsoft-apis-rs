@@ -100,10 +100,10 @@ mod tests {
     #[test]
     fn de_response_body_err_json() {
         match serde_json::from_str::<EndpointResponseBodyErrJson>(include_str!(
-            "../../tests/response_body_files/detect_objects_err__400.json"
+            "../../tests/response_body_files/detect_objects_err__401.json"
         )) {
             Ok(err_json) => {
-                assert_eq!(err_json.error.code, "InvalidRequest");
+                assert_eq!(err_json.error.code, "401");
             }
             Err(err) => panic!("{}", err),
         }

@@ -5,7 +5,8 @@ pub struct Object {
     pub rectangle: ObjectRectangle,
     pub object: String,
     pub confidence: f64,
-    pub parent: ObjectParent,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub parent: Option<ObjectParent>,
 }
 
 #[derive(Serialize, Deserialize, Debug, Clone)]

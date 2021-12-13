@@ -1,4 +1,5 @@
 [workspace]
 members = [
     "microsoft-cognitive-computer-vision",
+    "microsoft-cognitive-computer-vision/demo",
 ]

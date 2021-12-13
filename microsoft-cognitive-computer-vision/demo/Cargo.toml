@@ -1,0 +1,16 @@
+[package]
+name = "microsoft-cognitive-computer-vision-demo"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "microsoft_cognitive_computer_vision_detect_objects"
+path = "src/detect_objects.rs"
+
+[dependencies]
+microsoft-cognitive-computer-vision = { path = ".." }
+
+http-api-isahc-client = { version = "0.2" }
+
+futures-lite = { version = "1.11" }
+pretty_env_logger = { version = "0.4" }
